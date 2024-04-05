@@ -1,0 +1,21 @@
+
+str1 = "Verev square technology pvt ltd"
+str1 = str1.lower()
+
+print ("original string is "+ str1)
+
+str2 = str1.split()
+
+print("String after split " + str(str2))
+
+str3 = str(str2[2])
+
+str4 = ""
+for i in str3:
+	str4 = i + str4
+
+if (str3 == str4):
+	print("Yes")
+else:
+	print("No")
+
